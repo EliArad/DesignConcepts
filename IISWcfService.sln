@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISWcfService", "IISWcfService\IISWcfService.csproj", "{143C0012-7C78-48F5-9516-A3FFAD248B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClientApp", "WCFClientApp\WCFClientApp.csproj", "{9983CC1C-A8D5-4740-9129-F11A5BB91C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormSite", "WebApplication1\WebFormSite.csproj", "{A2BF1A8E-E393-495B-8A5E-5F4955C2988D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularWebForm", "WebApplication2\AngularWebForm.csproj", "{F6CC6F62-82DB-4768-AF87-D1CFD545C552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{143C0012-7C78-48F5-9516-A3FFAD248B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143C0012-7C78-48F5-9516-A3FFAD248B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143C0012-7C78-48F5-9516-A3FFAD248B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143C0012-7C78-48F5-9516-A3FFAD248B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9983CC1C-A8D5-4740-9129-F11A5BB91C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9983CC1C-A8D5-4740-9129-F11A5BB91C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9983CC1C-A8D5-4740-9129-F11A5BB91C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9983CC1C-A8D5-4740-9129-F11A5BB91C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BF1A8E-E393-495B-8A5E-5F4955C2988D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BF1A8E-E393-495B-8A5E-5F4955C2988D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BF1A8E-E393-495B-8A5E-5F4955C2988D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BF1A8E-E393-495B-8A5E-5F4955C2988D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CC6F62-82DB-4768-AF87-D1CFD545C552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CC6F62-82DB-4768-AF87-D1CFD545C552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CC6F62-82DB-4768-AF87-D1CFD545C552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CC6F62-82DB-4768-AF87-D1CFD545C552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

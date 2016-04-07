@@ -1,0 +1,29 @@
+<div class="container-fluid">
+ 
+    
+    
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table  table-striped">
+                <thead>
+                <tr>
+                    <td ng-repeat="item in headerSchema">
+                        {{item.title}}
+                    </td>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr ng-repeat="d in dataView">
+                    <td ng-repeat="(k , item) in headerSchema">
+                  
+                        {{ d[k] }}
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
